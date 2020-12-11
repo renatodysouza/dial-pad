@@ -1,0 +1,123 @@
+/* 
+*
+*  Csss modal date-picker
+*
+*
+*
+*
+*/
+
+#modal1-picker{
+
+    
+    width: 313px;
+    border: solid 1px #80808073;
+    border-radius: 8px;
+    margin-left: 37%;
+    z-index: 20;
+    position: absolute;
+    top: 246px;
+
+}
+
+.modal-content-picker {
+
+    position: relative;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+
+}
+
+
+#catch-hour-picker{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    color:#615e5e;
+}
+
+
+
+#table-picker{
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 4px;
+    color: #615e5e;
+}
+
+#thead-picker {
+    padding: 0;
+    z-index: 2;
+    
+}
+
+#tbody-picker td {
+    background-color: #ffffff;
+    border: solid 1px #80808073;
+    text-align: center;
+    font-size: 1.25em;
+    font-family: 'Barlow', sans-serif;
+}
+
+#tbody-picker td:nth-child(1) {
+    padding: 20px;
+}
+
+#tbody-picker td:nth-child(2) {
+    padding: 25px;
+}
+
+#tbody-picker td:nth-child(3) {
+    padding: 20px;
+}
+
+#tbody-picker td:nth-child(4) {
+    padding: 20px;
+}
+
+
+
+.dial-pad-picker-btn{
+    margin: 0;
+    color: #615e5e;;
+    padding: 10px 24px 10px 0;
+    background-color: #ffffff00;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    margin-top: 108px;
+    margin-left: 52px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+
+.digit  {
+    width: 13%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.953em;
+    font-family: 'Barlow', sans-serif;
+   
+    
+
+}
+
+#group-btn-picker {
+
+    display: flex;
+    justify-content: flex-end;
+  
+
+}
